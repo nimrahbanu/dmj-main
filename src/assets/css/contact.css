@@ -1,0 +1,95 @@
+.box-bg{
+
+    background:#F4F2F3;
+
+    box-shadow: inset 0.75px 0.75px 0.75px 0.75px grey;
+
+    border-radius:13px;
+
+    padding:15px;
+
+   
+
+}
+
+
+
+.contact-box{
+
+    background:#e8eef3;
+
+    box-shadow: inset 0.75px 0.75px 0.75px 0.75px grey;
+
+    border-radius:13px;
+
+    padding:15px; 
+
+    width:90%;
+
+    margin:auto
+
+}
+
+
+
+@media only screen and (min-width:320px) and (max-width:767px){
+
+    .contact-box{
+
+        background:#e8eef3;
+
+        box-shadow: inset 0.75px 0.75px 0.75px 0.75px grey;
+
+        border-radius:13px;
+
+        padding:5px; 
+
+        width:95%;
+
+        margin:auto
+
+    }   
+
+}
+
+
+
+.input-box{
+
+    border-radius:10px;
+
+    padding:10px
+
+}
+
+.contact_button{
+
+    background:#f59f04;
+
+    border:2px solid #f59f04;
+
+    color:white;
+
+    font-size:17px;
+
+    font-weight:500;
+
+    border-radius:11px
+
+}
+.successfullmsg{
+  
+    position: fixed;
+    top: 18%;
+    right: 42%;
+   
+    z-index: 1;
+}
+.succesmsg{
+    color:rgb(0, 187, 0);
+    font: 1.5em sans-serif;
+}
+.errmsg{
+    color:rgb(255, 0, 0);
+    font: 1.5em sans-serif; 
+}
